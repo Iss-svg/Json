@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "inter",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gap{
+    gap: 35px;
+}
+
+/*la Carte*/
+.lacarte{
+    width: 300px;
+    border: solid;
+    border-radius: 5px;
+}
+
+
+.lacarte img{
+    width: 100%;
+}
+
+.positioin{
+    position: absolute;
+}
+
+.btn{
+    border-radius: 4px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 15px;
+    border: solid;
+
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.pdDiv{
+    padding: 15px;
+}
+
+.bgBlack{
+    background-color: rgba(23, 22, 22, 0.653);
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 12px;
+    
+}
+
+.container{
+    
+      max-width: 1000px;
+      width: 100%;
+      margin: auto;
+  }
