@@ -39,10 +39,10 @@ let container =document.querySelector(".container")
             <h3>${titre}</h3>
             <p>${descript}</p>
             <div class="flex spaceBetween">
-                <div class="flex spaceBetween">
-                    <p>note 3,5 </p> <a href="">${avis}</a>
+                <div class="flex spaceBetween margP">
+                    <p> </p> <a href="">${avis}</a>
                 </div>
-                <p>${prix} $</p>
+                <p class="bold">${prix} $</p>
             </div>
             <a href="" class="btn">Ajouter aux panier</a>
         </div>

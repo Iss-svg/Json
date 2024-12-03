@@ -24,11 +24,26 @@ a {
     gap: 35px;
 }
 
+.bold{
+    font-weight: 900;
+}
+
 /*la Carte*/
 .lacarte{
     width: 300px;
     border: solid;
     border-radius: 5px;
+    border-width: 4px;
+}
+
+.lacarte p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margP{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -52,6 +67,7 @@ a {
 .btn:hover{
     background-color: black;
     color: white;
+    
 }
 
 .pdDiv{
